@@ -20,6 +20,7 @@
 
 # YOUR CODE HERE
 def fahr_to_celsius(temp_fahrenheit):
+  """華氏から摂氏に変換する関数"""
   converted_temp = (temp_fahrenheit - 32) / 1.8
   return converted_temp
 

@@ -27,14 +27,13 @@
 # YOUR CODE HERE to define temp_classifier
 def temp_classifier(temp_celsius):
   if temp_celsius < -2:
-     value = 0
+     return 0
   elif (temp_celsius >= -2) and (temp_celsius < 2):
-     value = 1
+     return 1
   elif (temp_celsius >= 2) and (temp_celsius < 15):
-     value = 2
+     return 2
   elif temp_celsius >= 15:
-     value = 3
-  return value
+     return 3
 
 # Use your newly created function to print the answers to the following questions:
 

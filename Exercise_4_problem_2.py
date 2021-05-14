@@ -25,6 +25,7 @@
 
 
 # YOUR CODE HERE to define temp_classifier
+"""Substituting Celsius for temp_celsius divides the temperature into one of four classes and returns the value in that class."""
 def temp_classifier(temp_celsius):
   if temp_celsius < -2:
      return 0
@@ -40,10 +41,10 @@ def temp_classifier(temp_celsius):
 
 # 1. What is the class value for 16.5 degrees Celsius?
 # YOUR CODE HERE
-print("The class value for 16.5 degrees is:", temp_classifier(16.5))
+
 # 2. What is the class value for +2 degrees Celsius?
 # YOUR CODE HERE
-print("The class value for +2 degrees is:", temp_classifier(2))
+
 
 
 # ### Problem 2 tests

@@ -49,9 +49,9 @@ print("71° Fahrenheit in Celsius is:", fahr_to_celsius(71))
 # Write your answers below:
 
 # YOUR ANSWER HERE. Write your answers as comments
+#1 Yes, it is.
 #
-#
-#
+#2 Using functions eliminates code duplication and makes the code easier to understand.
 #
 
 # #### Done!
